@@ -4,16 +4,22 @@ It uses UDP for data transfer between Server and Client Process.
 
 ## Step 1:
 In the CMD write -> `python Chat.py`
+
 It creates a server and prints the IP address of the server.
+
 Server port is fixed at 5000.
+
 The IP addess is the one which is provided by the Wifi Router.
+
 It is not the external IP.
 
 ## Step 2:
-In another machine connected with the same Wifi or same machine where server is running,
-open another CMD and run -> `python Chat.py XXX.XXX.XXX.XXX`
+In another machine connected with the same Wifi or same machine where server is running, open another CMD and run -> `python Chat.py XXX.XXX.XXX.XXX`
+
 XXX.XXX.XXX.XXX is the ServerIP.
+
 When you started the server, it prints it's IP.
+
 You can open more than one CMD and run the same command to spawn multiple clients.
 
 ## Step 3:
