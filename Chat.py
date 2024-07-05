@@ -73,7 +73,6 @@ def RunServer(host):
             if addr not in clients:
                 clients.add(addr)
                 continue
-            clients.add(addr)
             data = data.decode('utf-8')
             if data.endswith('qqq'):
                 clients.remove(addr)
